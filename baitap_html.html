@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div{
+			border: 1px solid;
+			margin: 25px 50px 75px 50px;
+			background-color: lightblue;
+		}
+		#customers {
+			border-collapse: collapse;
+			width: 100%
+		}
+		#customers td, #customers th {
+			border: 1px solid #ddd;
+			padding: 8px; 
+		}
+		#customers tr:nth-child(even){
+				background-color: #f2f2f2;
+		}
+		#customers tr:hover {background-color: #ddd;}
+		#customers th {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			text-align: left;
+			background-color: #4CAF50;
+			color: white;
+		}
+
+		input[type=text]{
+			width: 100%
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid red;
+			border-radius: 4px;
+		}
+		input[type=text]:focus {
+			border-color: red;
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body>
+	<p>Scroll the page and see what happens</p>
+
+	<div> Các tài liệu của Thầy TS. Đỗ Thanh Nghị, Khoa CNTT & TT,  khảo link các nhân của thầy. Các tài liệu của Thầy TS. Đỗ Thanh Nghị, Khoa CNTT & TT,  khảo link các nhân của thầy.Các tài liệu của Thầy TS. Đỗ Thanh Nghị, Khoa CNTT & TT,  khảo link các nhân của thầy</div>
+	<table id="customers">
+		<tr> <th>Company</th><th>Contact</th><th>country</th></tr>
+		<tr> <td>Comp1</td> <td>Mr.A</td> <td>Coun1</td></tr>
+		<tr> <td>Comp1</td> <td>Mr.A</td> <td>Coun1</td></tr>
+		<tr> <td>Comp1</td> <td>Mr.A</td> <td>Coun1</td></tr>
+		<tr> <td>Comp1</td> <td>Mr.A</td> <td>Coun1</td></tr>
+		<tr></tr>
+	</table>
+	<form>
+		<label for="fname">First Name</label> <br>
+		<input type="text" id="fname" name="fname" placeholder="First Name..."> <br>
+		<label for="lname">Last Name</label><br>
+		<input type="text" id="lname" name="lname">
+	</form>
+</body>
+</html>
